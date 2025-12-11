@@ -1,0 +1,36 @@
+type: http_request
+model: http_request
+id: rq_EqHcgBFZn8
+createdAt: 2025-10-13T13:14:22.175317200
+updatedAt: 2025-12-11T15:39:49.913880300
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_dZvMxemRZ2
+authentication:
+  password: ''
+  username: ''
+authenticationType: basic
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: get-possible-technologies-by-decoration-varient-id
+sortPriority: 2000.0
+url: http://${[treecalculr]}/mk-api/treecalc/get-possible-technologies-by-decoration-varient-id
+urlParameters:
+- enabled: true
+  name: apiKey
+  value: ${[treecalcAPIKey]}
+  id: null
+- enabled: true
+  name: locale
+  value: en
+  id: null
+- enabled: true
+  name: decorationVariantId
+  value: ${[decorationVariantId]}
+  id: null
+- enabled: false
+  name: ''
+  value: ''
+  id: null

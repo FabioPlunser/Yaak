@@ -1,0 +1,32 @@
+type: http_request
+model: http_request
+id: rq_mzALtVJyzL
+createdAt: 2025-10-13T13:14:22.175173300
+updatedAt: 2025-12-11T15:39:49.910771100
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_dZvMxemRZ2
+authentication:
+  password: ''
+  username: ''
+authenticationType: basic
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: image/webp
+  id: null
+method: GET
+name: get-tree-types
+sortPriority: 1000.0
+url: http://${[treecalculr]}/mk-api/treecalc/get-tree-types
+urlParameters:
+- enabled: true
+  name: apiKey
+  value: ${[treecalcAPIKey]}
+  id: null
+- enabled: true
+  name: locale
+  value: de
+  id: null

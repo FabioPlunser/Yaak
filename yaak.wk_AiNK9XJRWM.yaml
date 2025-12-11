@@ -1,0 +1,14 @@
+type: workspace
+model: workspace
+id: wk_AiNK9XJRWM
+createdAt: 2025-10-13T13:14:22.165033400
+updatedAt: 2025-10-13T13:14:22.165033700
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: TreeCalculator
+encryptionKeyChallenge: null
+settingValidateCertificates: true
+settingFollowRedirects: true
+settingRequestTimeout: 0

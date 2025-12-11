@@ -1,0 +1,52 @@
+type: http_request
+model: http_request
+id: rq_pkVqAYsVfh
+createdAt: 2025-10-13T13:14:22.175741900
+updatedAt: 2025-12-11T15:39:49.917113200
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_dZvMxemRZ2
+authentication: {}
+authenticationType: null
+body:
+  form:
+  - enabled: true
+    name: body
+    value: hallo
+  - contentType: null
+    enabled: true
+    file: /C:/Users/f.plunser/Downloads/IM_LEDStringLite_OUT_2024 DRAFT NEW.pdf
+    name: attachment
+  - enabled: true
+    name: fileName
+    value: Test.pdf
+  - enabled: false
+    name: to
+    value: f.plunser@outlook.com
+bodyType: multipart/form-data
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: multipart/form-data
+  id: null
+method: POST
+name: send-email
+sortPriority: 5000.0
+url: http://${[treecalculr]}/mk-api/treecalc/send-mail
+urlParameters:
+- enabled: true
+  name: apiKey
+  value: ${[treecalcAPIKey]}
+  id: null
+- enabled: true
+  name: locale
+  value: de
+  id: null
+- enabled: false
+  name: voltageId
+  value: '13363'
+  id: null
+- enabled: false
+  name: decorationId
+  value: '105123'
+  id: null
