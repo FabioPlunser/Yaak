@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_omhWVc23mk
+createdAt: 2026-03-10T07:22:52.281349100
+updatedAt: 2026-03-10T07:27:18.454073
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_Ge8MLntrgb
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: orders-api
+sortPriority: 6000.0
+url: https://orders.mk-illumination.com/api/voucher/detail
+urlParameters:
+- enabled: true
+  name: voucerNumber
+  value: ''
+  id: q7NUJEUzSu

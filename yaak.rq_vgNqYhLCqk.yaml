@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_vgNqYhLCqk
+createdAt: 2026-03-10T07:22:56.951978300
+updatedAt: 2026-03-10T07:27:18.460076500
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_Ge8MLntrgb
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: wasi-get-everything
+sortPriority: 7000.0
+url: http://10.2.9.210:8889/kettle/executeTrans/
+urlParameters:
+- enabled: true
+  name: trans
+  value: pdi-projects/bestellungen.ktr
+  id: qh7NQRkNay
+- enabled: true
+  name: filter_date
+  value: 2024-01-01
+  id: fPgQffJySZ

@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_KTsCDNbxMo
+createdAt: 2026-03-10T07:26:23.342799500
+updatedAt: 2026-03-10T07:26:38.364438500
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_Lob7gv9Lhe
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: voucherNumber
+sortPriority: -1773072725463.997
+url: https://orders.mk-illumination.com/api/voucher/detail
+urlParameters:
+- enabled: true
+  name: voucherNumber
+  value: '19120'
+  id: YX3NjS0xsc

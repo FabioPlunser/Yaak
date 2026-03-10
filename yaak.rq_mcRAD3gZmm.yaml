@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_mcRAD3gZmm
+createdAt: 2026-03-10T07:25:57.915631400
+updatedAt: 2026-03-10T07:26:08.270097600
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_Lob7gv9Lhe
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: xmlCopy
+sortPriority: -1773072725463.999
+url: http://motiverse.m-illumination.com/mk-api/xml
+urlParameters:
+- enabled: true
+  name: apiKey
+  value: k45RvGG0SWBkskTZh7fkmjRgSq0VwxvbxXmkgBU0
+  id: eQq2ENEjyg

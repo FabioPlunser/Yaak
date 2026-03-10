@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_Y5r27z6BW3
+createdAt: 2026-03-10T07:22:46.399486200
+updatedAt: 2026-03-10T07:27:18.426113300
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_Ge8MLntrgb
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: easy-order
+sortPriority: 5000.0
+url: https://${[ pimcoreUrl ]}/mk-api/easycatalog/get-morders
+urlParameters:
+- enabled: true
+  name: mode
+  value: code
+  id: VaDmI4fzYT
+- enabled: true
+  name: apiKey
+  value: 5WWd@UKq&EyR68q5LehsKVBy5U#De6cPVQ9^2LCP
+  id: I3gag2vzPq
+- enabled: true
+  name: ''
+  value: ''
+  id: ETXMFZ4b0U
+- enabled: true
+  name: ''
+  value: ''
+  id: xipY6XaRjh

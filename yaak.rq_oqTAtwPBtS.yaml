@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_oqTAtwPBtS
+createdAt: 2026-03-10T07:26:04.171167300
+updatedAt: 2026-03-10T07:26:20.453654600
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_Lob7gv9Lhe
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: getAll
+sortPriority: -1773072725463.998
+url: https://orders.mk-illumination.com/api/voucher/all
+urlParameters:
+- enabled: true
+  name: apiKey
+  value: k45RvGG0SWBkskTZh7fkmjRgSq0VwxvbxXmkgBU0
+  id: eQq2ENEjyg
