@@ -1,0 +1,44 @@
+type: http_request
+model: http_request
+id: rq_7UsbVPajoN
+createdAt: 2025-12-12T10:11:55.569831400
+updatedAt: 2026-01-22T13:27:52.409465
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_dZvMxemRZ2
+authentication:
+  password: sK3pX8cF9wL9hI1eJ2zV2rG9fT4eG9dM
+  username: mki
+authenticationType: basic
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: get-partners
+sortPriority: 4000.001
+url: https://${[treecalculr]}/mk-api/treecalc/get-partners
+urlParameters:
+- enabled: true
+  name: apiKey
+  value: ${[treecalcAPIKey]}
+  id: BqCMtvnncB
+- enabled: false
+  name: locale
+  value: de_AT
+  id: s4yubXdgQT
+- enabled: false
+  name: decorationVariantId
+  value: ${[decorationVariantId]}
+  id: dh0uK49y3A
+- enabled: false
+  name: technologyId
+  value: ${[technologyId]}
+  id: h4QhJSrgnB
+- enabled: false
+  name: colorId
+  value: ${[colorId]}
+  id: 8vXn0xx6gf
+- enabled: true
+  name: ''
+  value: ''
+  id: qHgx4VCtWa

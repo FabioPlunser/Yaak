@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_DFKwA3DyD2
+createdAt: 2026-02-09T11:09:56.145141200
+updatedAt: 2026-02-09T11:11:16.944650800
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_ifdU3SyAuZ
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Token
+  value: kQaSsN7pCmR5CmDa9jApxpNEQJFV0cpk:B8B39H2HbnvJxL8JuSpwTU7QskS0huHA
+  id: C7YyAsTmxi
+- enabled: true
+  name: ''
+  value: ''
+  id: Em2TQidPMT
+method: GET
+name: ''
+sortPriority: 0.0
+url: https://docs.mk-illumination.com/api/roles
+urlParameters: []

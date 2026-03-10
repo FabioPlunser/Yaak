@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_EqHcgBFZn8
 createdAt: 2025-10-13T13:14:22.175317200
-updatedAt: 2025-12-11T15:39:49.913880300
+updatedAt: 2025-12-18T10:13:56.939910700
 workspaceId: wk_AiNK9XJRWM
 folderId: fl_dZvMxemRZ2
 authentication:
@@ -21,16 +21,16 @@ urlParameters:
 - enabled: true
   name: apiKey
   value: ${[treecalcAPIKey]}
-  id: null
+  id: gAPNIXfYbE
 - enabled: true
   name: locale
   value: en
-  id: null
+  id: x0B5eckCuw
 - enabled: true
   name: decorationVariantId
-  value: ${[decorationVariantId]}
-  id: null
-- enabled: false
+  value: '112119'
+  id: qaztdcAHPh
+- enabled: true
   name: ''
   value: ''
-  id: null
+  id: 4ZFiRhXbMV
