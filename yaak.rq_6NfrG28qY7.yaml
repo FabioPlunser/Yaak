@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_WPnxSFZU66
-createdAt: 2026-03-10T07:22:03.342626300
-updatedAt: 2026-03-12T14:33:06.501933800
+id: rq_6NfrG28qY7
+createdAt: 2026-03-10T08:04:20.300556900
+updatedAt: 2026-03-12T10:50:46.491509500
 workspaceId: wk_AiNK9XJRWM
-folderId: fl_Ge8MLntrgb
+folderId: fl_A8mtLrnmcH
 authentication: {}
 authenticationType: null
 body: {}
@@ -12,15 +12,15 @@ bodyType: null
 description: ''
 headers: []
 method: GET
-name: get-shared-translations
+name: getDetailProduct
 sortPriority: 1000.0
-url: ${[ pimcoreUrl ]}/mk-api/easycatalog/get-shared-translations
+url: ${[ pimcoreUrl ]}/mk-api/product/detail/33121
 urlParameters:
 - enabled: true
   name: apiKey
-  value: ${[ apiKey ]}
-  id: I3gag2vzPq
+  value: mdstest
+  id: vEn2SZuXnA
 - enabled: true
   name: ''
   value: ''
-  id: smI4F5uXxd
+  id: srX0g5fPeY

@@ -2,13 +2,11 @@ type: http_request
 model: http_request
 id: rq_XY9WxPCfmc
 createdAt: 2025-10-13T13:14:22.175607300
-updatedAt: 2025-12-18T10:14:25.221238100
+updatedAt: 2026-03-12T15:02:09.208448200
 workspaceId: wk_AiNK9XJRWM
 folderId: fl_dZvMxemRZ2
-authentication:
-  password: ''
-  username: ''
-authenticationType: basic
+authentication: {}
+authenticationType: null
 body: {}
 bodyType: null
 description: ''
@@ -16,11 +14,11 @@ headers: []
 method: GET
 name: get-sizes
 sortPriority: 4000.0
-url: http://${[treecalculr]}/mk-api/treecalc/get-sizes-by-decoration-variant-technology-color
+url: ${[ pimcoreUrl ]}/mk-api/treecalc/get-sizes-by-decoration-variant-technology-color
 urlParameters:
 - enabled: true
   name: apiKey
-  value: ${[treecalcAPIKey]}
+  value: ${[ apiKey ]}
   id: gQ8QICrMM8
 - enabled: true
   name: locale
@@ -41,4 +39,4 @@ urlParameters:
 - enabled: true
   name: ''
   value: ''
-  id: cMbb8GSSae
+  id: AnJDNAKYcb

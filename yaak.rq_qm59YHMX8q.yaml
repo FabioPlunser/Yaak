@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_JnpWbfsH6D
-createdAt: 2025-10-13T13:14:22.174889700
-updatedAt: 2026-03-12T15:02:00.800842400
+id: rq_qm59YHMX8q
+createdAt: 2026-03-12T07:29:20.226155200
+updatedAt: 2026-03-12T10:51:42.245607200
 workspaceId: wk_AiNK9XJRWM
-folderId: fl_dZvMxemRZ2
+folderId: fl_A8mtLrnmcH
 authentication: {}
 authenticationType: null
 body: {}
@@ -12,19 +12,19 @@ bodyType: null
 description: ''
 headers: []
 method: GET
-name: get-treecal
-sortPriority: 0.0
-url: ${[ pimcoreUrl ]}/mk-api/treecalc/
+name: getDetailMotif
+sortPriority: 1000.001
+url: ${[ pimcoreUrl ]}/mk-api/motif/detail/621-324
 urlParameters:
 - enabled: true
   name: apiKey
   value: ${[ apiKey ]}
-  id: 9uPgTbXkRK
+  id: vEn2SZuXnA
 - enabled: true
-  name: locale
-  value: de
-  id: TWFZxUIu5n
+  name: mode
+  value: code
+  id: ZfI0n7gx4w
 - enabled: true
   name: ''
   value: ''
-  id: rxeVcBeBE3
+  id: fkfrhhgkzP

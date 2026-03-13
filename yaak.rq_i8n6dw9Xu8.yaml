@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_i8n6dw9Xu8
 createdAt: 2026-03-10T07:22:03.838553900
-updatedAt: 2026-03-10T07:27:18.447426700
+updatedAt: 2026-03-12T14:32:44.852435400
 workspaceId: wk_AiNK9XJRWM
 folderId: fl_Ge8MLntrgb
 authentication: {}
@@ -14,21 +14,13 @@ headers: []
 method: GET
 name: get-manuals-notices
 sortPriority: 4000.0
-url: https://${[ pimcoreUrl ]}/mk-api/easycatalog/get-manuals-notices
+url: ${[ pimcoreUrl ]}/mk-api/easycatalog/get-manuals-notices
 urlParameters:
 - enabled: true
-  name: mode
-  value: code
-  id: VaDmI4fzYT
-- enabled: true
   name: apiKey
-  value: 5WWd@UKq&EyR68q5LehsKVBy5U#De6cPVQ9^2LCP
+  value: ${[ apiKey ]}
   id: I3gag2vzPq
 - enabled: true
   name: ''
   value: ''
-  id: ETXMFZ4b0U
-- enabled: true
-  name: ''
-  value: ''
-  id: xipY6XaRjh
+  id: wnIU4T3u3e

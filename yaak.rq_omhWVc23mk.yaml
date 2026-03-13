@@ -2,11 +2,13 @@ type: http_request
 model: http_request
 id: rq_omhWVc23mk
 createdAt: 2026-03-10T07:22:52.281349100
-updatedAt: 2026-03-10T07:27:18.454073
+updatedAt: 2026-03-13T08:32:53.952508800
 workspaceId: wk_AiNK9XJRWM
 folderId: fl_Ge8MLntrgb
-authentication: {}
-authenticationType: null
+authentication:
+  password: RPFGjav6x82y
+  username: PIMCORE
+authenticationType: basic
 body: {}
 bodyType: null
 description: ''

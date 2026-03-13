@@ -2,13 +2,11 @@ type: http_request
 model: http_request
 id: rq_EqHcgBFZn8
 createdAt: 2025-10-13T13:14:22.175317200
-updatedAt: 2025-12-18T10:13:56.939910700
+updatedAt: 2026-03-12T15:02:05.196030700
 workspaceId: wk_AiNK9XJRWM
 folderId: fl_dZvMxemRZ2
-authentication:
-  password: ''
-  username: ''
-authenticationType: basic
+authentication: {}
+authenticationType: null
 body: {}
 bodyType: null
 description: ''
@@ -16,11 +14,11 @@ headers: []
 method: GET
 name: get-possible-technologies-by-decoration-varient-id
 sortPriority: 2000.0
-url: http://${[treecalculr]}/mk-api/treecalc/get-possible-technologies-by-decoration-varient-id
+url: ${[ pimcoreUrl ]}/mk-api/treecalc/get-possible-technologies-by-decoration-varient-id
 urlParameters:
 - enabled: true
   name: apiKey
-  value: ${[treecalcAPIKey]}
+  value: ${[ apiKey ]}
   id: gAPNIXfYbE
 - enabled: true
   name: locale
@@ -33,4 +31,4 @@ urlParameters:
 - enabled: true
   name: ''
   value: ''
-  id: 4ZFiRhXbMV
+  id: K2SMjNDs37

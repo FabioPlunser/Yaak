@@ -2,11 +2,13 @@ type: folder
 model: folder
 id: fl_Ge8MLntrgb
 createdAt: 2026-03-09T13:31:11.265927700
-updatedAt: 2026-03-09T13:31:11.265928400
+updatedAt: 2026-03-10T07:51:22.082732
 workspaceId: wk_AiNK9XJRWM
 folderId: null
-authentication: {}
-authenticationType: null
+authentication:
+  password: sK3pX8cF9wL9hI1eJ2zV2rG9fT4eG9dM
+  username: mki
+authenticationType: basic
 description: ''
 headers: []
 name: Easycatalog

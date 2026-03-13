@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_GLxKpMXWRv
 createdAt: 2026-03-09T16:12:05.465079900
-updatedAt: 2026-03-10T07:27:18.417810700
+updatedAt: 2026-03-12T14:33:03.887368700
 workspaceId: wk_AiNK9XJRWM
 folderId: fl_Ge8MLntrgb
 authentication: {}
@@ -14,9 +14,13 @@ headers: []
 method: GET
 name: get-all-products
 sortPriority: 0.0
-url: https://${[ pimcoreUrl ]}/mk-api/easycatalog/get-all-products
+url: ${[ pimcoreUrl ]}/mk-api/easycatalog/get-all-products
 urlParameters:
 - enabled: true
   name: apiKey
-  value: mdstest
+  value: ${[ apiKey ]}
   id: 9TGw5sQFhd
+- enabled: true
+  name: ''
+  value: ''
+  id: NEbynrVaUC
