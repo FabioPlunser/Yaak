@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_YMpKq7dwx6
 createdAt: 2026-03-10T07:22:03.680029400
-updatedAt: 2026-03-12T14:33:12.066188700
+updatedAt: 2026-03-20T09:01:37.111050400
 workspaceId: wk_AiNK9XJRWM
 folderId: fl_Ge8MLntrgb
 authentication: {}
@@ -18,9 +18,9 @@ url: ${[ pimcoreUrl ]}/mk-api/easycatalog/get-manuals-products
 urlParameters:
 - enabled: true
   name: apiKey
-  value: ${[ apiKey ]}
+  value: ${[ mdstest ]}
   id: I3gag2vzPq
 - enabled: true
   name: ''
   value: ''
-  id: 4WrMMInu4n
+  id: 4dBExDKzs9

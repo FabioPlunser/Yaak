@@ -2,13 +2,15 @@ type: workspace
 model: workspace
 id: wk_AiNK9XJRWM
 createdAt: 2025-10-13T13:14:22.165033400
-updatedAt: 2025-10-13T13:14:22.165033700
+updatedAt: 2026-03-23T09:21:28.678042400
 authentication: {}
 authenticationType: null
-description: ''
+description: |
+  Workspace with most important stuff in it
 headers: []
-name: TreeCalculator
+name: General
 encryptionKeyChallenge: null
 settingValidateCertificates: true
 settingFollowRedirects: true
 settingRequestTimeout: 0
+settingDnsOverrides: []
