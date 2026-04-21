@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_tVMeKR89Vk
 createdAt: 2026-03-10T07:22:03.514574200
-updatedAt: 2026-03-12T14:33:09.254229700
+updatedAt: 2026-03-26T09:30:01.349413500
 workspaceId: wk_AiNK9XJRWM
 folderId: fl_Ge8MLntrgb
 authentication: {}
@@ -18,9 +18,9 @@ url: ${[ pimcoreUrl ]}/mk-api/easycatalog/get-companies
 urlParameters:
 - enabled: true
   name: apiKey
-  value: ${[ apiKey ]}
+  value: ${[ mdstest ]}
   id: I3gag2vzPq
 - enabled: true
   name: ''
   value: ''
-  id: e93VxheecH
+  id: GFSzzGCP2d

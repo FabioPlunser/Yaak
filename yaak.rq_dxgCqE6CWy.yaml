@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_dxgCqE6CWy
+createdAt: 2026-04-20T14:35:46.726822900
+updatedAt: 2026-04-21T08:48:02.963618
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_boknRCv6hM
+authentication: {}
+authenticationType: none
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: getPartChanges
+sortPriority: 0.0
+url: https://mk.live/motiverse_get_partchanges
+urlParameters:
+- enabled: true
+  name: timestamp
+  value: '20260321093000'
+  id: ZkPNJVPVnX
+- enabled: true
+  name: key
+  value: ${[ abasAPIKey ]}
+  id: WkBQkUSGh9
+- enabled: true
+  name: ''
+  value: ''
+  id: A2dZg5jaUb
+- enabled: true
+  name: ''
+  value: ''
+  id: RrQQYcHMmd

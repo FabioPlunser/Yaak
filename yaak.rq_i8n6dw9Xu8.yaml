@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_i8n6dw9Xu8
 createdAt: 2026-03-10T07:22:03.838553900
-updatedAt: 2026-03-12T14:32:44.852435400
+updatedAt: 2026-03-30T09:00:21.449508300
 workspaceId: wk_AiNK9XJRWM
 folderId: fl_Ge8MLntrgb
 authentication: {}
@@ -18,9 +18,9 @@ url: ${[ pimcoreUrl ]}/mk-api/easycatalog/get-manuals-notices
 urlParameters:
 - enabled: true
   name: apiKey
-  value: ${[ apiKey ]}
+  value: ${[ mdstest ]}
   id: I3gag2vzPq
 - enabled: true
   name: ''
   value: ''
-  id: wnIU4T3u3e
+  id: WsEcaW2H4P

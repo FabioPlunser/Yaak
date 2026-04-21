@@ -1,0 +1,24 @@
+type: http_request
+model: http_request
+id: rq_gc9YaPsnyk
+createdAt: 2025-10-13T13:14:18.352505100
+updatedAt: 2025-10-13T13:14:18.352505200
+workspaceId: wk_qAVL56k9Um
+folderId: null
+authentication:
+  token: ''
+authenticationType: bearer
+body:
+  text: "{\r\n    \"Operations\": [{\r\n      \"op\": \"Add\",\r\n      \"path\": \"members\",\r\n      \"value\": [{ \"value\": 114162 }]\r\n    }]\r\n}"
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+method: PUT
+name: addUserToGroup
+sortPriority: 7.0
+url: http://pimcore.local/scim/v2/Groups/60877
+urlParameters: []

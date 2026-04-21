@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_iJatXDsB7q
+createdAt: 2026-04-20T11:58:56.214910500
+updatedAt: 2026-04-20T14:35:35.358785200
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_uoHG92TRUS
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: getAllMotifsByDate
+sortPriority: 0.0
+url: ${[ pimcoreUrl ]}/abasApi/requestList
+urlParameters:
+- enabled: true
+  name: dateFrom
+  value: 2026-01-14
+  id: rqcTD5VWk4
+- enabled: true
+  name: dateTo
+  value: 2026-04-16
+  id: K68QgEJQpm
+- enabled: true
+  name: ''
+  value: ''
+  id: yZwwQBJwWa

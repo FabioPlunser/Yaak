@@ -1,0 +1,32 @@
+type: http_request
+model: http_request
+id: rq_miFxWtjSAm
+createdAt: 2026-04-20T12:54:10.162673500
+updatedAt: 2026-04-20T12:56:48.810641800
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_eZssoJFBt4
+authentication:
+  password: cluster
+  username: cluster
+authenticationType: basic
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: getOrdersFromWawi
+sortPriority: -1773072725463.998
+url: http://docker.mk-illumination.com:8889/kettle/executeTrans/
+urlParameters:
+- enabled: true
+  name: trans
+  value: pdi-projects/bestellungen.ktr
+  id: BAyyH70EVm
+- enabled: true
+  name: filter_date
+  value: 2026-04-01
+  id: NrYExMkiYF
+- enabled: true
+  name: ''
+  value: ''
+  id: 0d4rQiC7a6

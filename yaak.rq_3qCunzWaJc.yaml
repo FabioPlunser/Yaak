@@ -1,0 +1,23 @@
+type: http_request
+model: http_request
+id: rq_3qCunzWaJc
+createdAt: 2025-10-13T13:14:18.351814300
+updatedAt: 2026-04-21T09:15:29.971550700
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_VNskDXTxqj
+authentication:
+  token: ''
+authenticationType: bearer
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: listUsers
+sortPriority: 2000.0
+url: http://pimcore.local/scim/v2/Users
+urlParameters:
+- enabled: true
+  name: filter
+  value: userName%20eq%20%22fabio.plunser@mk-illumination.global%22
+  id: null

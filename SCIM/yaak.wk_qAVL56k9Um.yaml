@@ -1,0 +1,14 @@
+type: workspace
+model: workspace
+id: wk_qAVL56k9Um
+createdAt: 2025-10-13T13:14:18.342344900
+updatedAt: 2025-10-13T13:14:18.342345600
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: SCIM
+encryptionKeyChallenge: null
+settingValidateCertificates: true
+settingFollowRedirects: true
+settingRequestTimeout: 0

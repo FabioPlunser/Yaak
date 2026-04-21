@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_d9gpZwi8Zv
+createdAt: 2025-10-13T13:14:18.352628200
+updatedAt: 2026-04-21T09:15:29.936404500
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_VNskDXTxqj
+authentication:
+  token: ''
+authenticationType: bearer
+body:
+  text: |-
+    {
+        "Operations": [{
+          "op": "Remove",
+          "path": "members[value eq \"114162\"]"
+        }]
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+method: PUT
+name: removeUserFromGroup
+sortPriority: 8000.0
+url: http://pimcore.local/scim/v2/Groups/60877
+urlParameters: []

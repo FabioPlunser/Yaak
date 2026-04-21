@@ -2,7 +2,7 @@ type: folder
 model: folder
 id: fl_Ge8MLntrgb
 createdAt: 2026-03-09T13:31:11.265927700
-updatedAt: 2026-03-10T07:51:22.082732
+updatedAt: 2026-03-26T09:29:48.163260700
 workspaceId: wk_AiNK9XJRWM
 folderId: null
 authentication:
@@ -10,6 +10,14 @@ authentication:
   username: mki
 authenticationType: basic
 description: ''
-headers: []
+headers:
+- enabled: true
+  name: apiKey
+  value: ${[ mdstest ]}
+  id: Np7QCHM0m4
+- enabled: true
+  name: ''
+  value: ''
+  id: fMyM9peVPf
 name: Easycatalog
 sortPriority: -1773063071262.0

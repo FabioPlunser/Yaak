@@ -1,0 +1,45 @@
+type: http_request
+model: http_request
+id: rq_4TUDz9cRQ9
+createdAt: 2025-10-13T13:14:18.352256500
+updatedAt: 2026-04-21T09:15:30.015061700
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_VNskDXTxqj
+authentication:
+  token: ''
+authenticationType: bearer
+body:
+  text: |-
+    {
+        "userName": "jane.doe@example.com",
+        "name": { "givenName": "Jane", "familyName": "Doe" },
+        "active": true,
+        "emails": [{ "value": "jane.doe@example.com", "primary": true }],
+        "addresses": [{
+          "type": "work",
+          "streetAddress": "Trientlgasse 70",
+          "locality": "Vienna",
+          "postalCode": "6020",
+          "country": "Austria"
+        }]
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+method: GET
+name: listGroups
+sortPriority: 5000.0
+url: http://pimcore.local/scim/v2/Groups
+urlParameters:
+- enabled: true
+  name: excludedAttributes
+  value: members
+  id: null
+- enabled: true
+  name: filter
+  value: externalId+eq+%22840512ca-c700-4b28-9710-8c2b2167e8f3%22
+  id: null

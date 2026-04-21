@@ -1,0 +1,24 @@
+type: http_request
+model: http_request
+id: rq_i69JfHHU6m
+createdAt: 2025-10-13T13:14:18.352096
+updatedAt: 2025-10-13T13:14:18.352096100
+workspaceId: wk_qAVL56k9Um
+folderId: null
+authentication:
+  token: ''
+authenticationType: bearer
+body:
+  text: "{\r\n    \"userName\": \"jane.doe@example.com\",\r\n    \"name\": { \"givenName\": \"Jane\", \"familyName\": \"Doe\" },\r\n    \"active\": true,\r\n    \"emails\": [{ \"value\": \"jane.doe@example.com\", \"primary\": true }],\r\n    \"addresses\": [{\r\n      \"type\": \"work\",\r\n      \"streetAddress\": \"Trientlgasse 70\",\r\n      \"locality\": \"Vienna\",\r\n      \"postalCode\": \"6020\",\r\n      \"country\": \"Austria\"\r\n    }]\r\n}"
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+method: POST
+name: createUesrs
+sortPriority: 4.0
+url: http://pimcore.local/scim/v2/Users
+urlParameters: []

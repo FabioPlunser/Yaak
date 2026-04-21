@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_BXReJ7essv
+createdAt: 2026-04-21T08:49:02.218198100
+updatedAt: 2026-04-21T08:50:06.468161700
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_boknRCv6hM
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: getReservations
+sortPriority: 0.002
+url: https://mk.live/motiverse_get_reservations
+urlParameters:
+- enabled: true
+  name: part
+  value: '52563'
+  id: uGwjN9izbn
+- enabled: true
+  name: key
+  value: ${[ abasAPIKey ]}
+  id: RjUKsQQQ8F
+- enabled: true
+  name: ''
+  value: ''
+  id: N60k5UBjNA

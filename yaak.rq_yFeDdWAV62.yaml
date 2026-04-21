@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_yFeDdWAV62
+createdAt: 2026-04-21T08:49:35.348192400
+updatedAt: 2026-04-21T08:49:43.821481100
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_boknRCv6hM
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: getStockInfo
+sortPriority: 0.003
+url: https://mk.live/motiverse_get_stockinfo
+urlParameters:
+- enabled: true
+  name: part
+  value: '52445'
+  id: uGwjN9izbn
+- enabled: true
+  name: key
+  value: ${[ abasAPIKey ]}
+  id: RjUKsQQQ8F
+- enabled: true
+  name: ''
+  value: ''
+  id: Z4BpexCmR7

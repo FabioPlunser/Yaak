@@ -1,0 +1,19 @@
+type: http_request
+model: http_request
+id: rq_Zt3b6Gb5EL
+createdAt: 2025-10-13T13:14:18.351319800
+updatedAt: 2025-10-13T13:14:18.351320300
+workspaceId: wk_qAVL56k9Um
+folderId: null
+authentication:
+  token: ''
+authenticationType: bearer
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: serviceProviderConfig
+sortPriority: 0.0
+url: http://pimcore.local/scim/v2/ServiceProviderConfig
+urlParameters: []

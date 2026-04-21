@@ -1,0 +1,19 @@
+type: http_request
+model: http_request
+id: rq_siwSjVAMvX
+createdAt: 2025-10-13T13:14:18.351633100
+updatedAt: 2025-10-13T13:14:18.351633200
+workspaceId: wk_qAVL56k9Um
+folderId: null
+authentication:
+  token: ''
+authenticationType: bearer
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: resourceTypes
+sortPriority: 1.0
+url: http://pimcore.local/scim/v2/ResourceTypes
+urlParameters: []

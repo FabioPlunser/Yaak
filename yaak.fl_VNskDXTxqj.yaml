@@ -1,0 +1,13 @@
+type: folder
+model: folder
+id: fl_VNskDXTxqj
+createdAt: 2026-04-20T14:13:22.346993
+updatedAt: 2026-04-20T14:13:22.346993700
+workspaceId: wk_AiNK9XJRWM
+folderId: null
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: Pimcore-SCIM
+sortPriority: -1776694402344.0

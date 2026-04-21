@@ -1,0 +1,19 @@
+type: http_request
+model: http_request
+id: rq_TEdMPFQbRh
+createdAt: 2025-10-13T13:14:18.351963800
+updatedAt: 2026-04-21T09:15:29.979010400
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_VNskDXTxqj
+authentication:
+  token: ''
+authenticationType: bearer
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: user/id
+sortPriority: 3000.0
+url: http://pimcore.local/scim/v2/Users/114162
+urlParameters: []

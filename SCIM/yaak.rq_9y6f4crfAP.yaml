@@ -1,0 +1,24 @@
+type: http_request
+model: http_request
+id: rq_9y6f4crfAP
+createdAt: 2025-10-13T13:14:18.352389600
+updatedAt: 2025-10-13T13:14:18.352389700
+workspaceId: wk_qAVL56k9Um
+folderId: null
+authentication:
+  token: ''
+authenticationType: bearer
+body:
+  text: "{\r\n    \"schemas\": [\"urn:ietf:params:scim:schemas:core:2.0:User\"],\r\n    \"userName\": \"john.doe@example.com\",\r\n    \"name\": { \"givenName\": \"John\", \"familyName\": \"Doe\" },\r\n    \"active\": true,\r\n    \"addresses\": [{ \"country\": \"Germany\" }],\r\n    \"groups\": [\r\n      { \"value\": \"945\" }           // Pimcore group id\r\n      // or { \"value\": \"GUID-FROM-ENTRA\" } // Entra GUID\r\n    ]\r\n  }"
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+method: POST
+name: updateUser
+sortPriority: 6.0
+url: http://pimcore.local/scim/v2/Users
+urlParameters: []

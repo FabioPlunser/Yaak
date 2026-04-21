@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_KTsCDNbxMo
 createdAt: 2026-03-10T07:26:23.342799500
-updatedAt: 2026-03-10T07:26:38.364438500
+updatedAt: 2026-04-21T09:18:29.998664700
 workspaceId: wk_AiNK9XJRWM
 folderId: fl_Lob7gv9Lhe
 authentication: {}
@@ -12,7 +12,7 @@ bodyType: null
 description: ''
 headers: []
 method: GET
-name: voucherNumber
+name: getDetial
 sortPriority: -1773072725463.997
 url: https://orders.mk-illumination.com/api/voucher/detail
 urlParameters:

@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_MktVEJdiVM
+createdAt: 2026-04-20T14:39:39.664370600
+updatedAt: 2026-04-21T08:48:06.373783200
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_boknRCv6hM
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: getInfo
+sortPriority: 0.001
+url: https://mk.live/motiverse_get_partinfo
+urlParameters:
+- enabled: true
+  name: part
+  value: '52204'
+  id: uGwjN9izbn
+- enabled: true
+  name: key
+  value: ${[ abasAPIKey ]}
+  id: RjUKsQQQ8F
+- enabled: true
+  name: ''
+  value: ''
+  id: j90eAxDUGW

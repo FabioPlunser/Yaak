@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_ux4WQ7UfW2
+createdAt: 2026-04-20T12:14:32.555235800
+updatedAt: 2026-04-20T14:35:35.386440200
+workspaceId: wk_AiNK9XJRWM
+folderId: fl_uoHG92TRUS
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: updateStock
+sortPriority: 3000.0
+url: ${[ pimcoreUrl ]}/abasApi/motif/126686/updateStock
+urlParameters:
+- enabled: false
+  name: dateFrom
+  value: 2026-01-14
+  id: rqcTD5VWk4
+- enabled: false
+  name: dateTo
+  value: 2026-04-16
+  id: K68QgEJQpm
+- enabled: true
+  name: ''
+  value: ''
+  id: GZ3IcAJPeC
