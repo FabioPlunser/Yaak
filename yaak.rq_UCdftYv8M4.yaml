@@ -1,8 +1,8 @@
 type: http_request
 model: http_request
-id: rq_YMpKq7dwx6
-createdAt: 2026-03-10T07:22:03.680029400
-updatedAt: 2026-04-21T13:29:58.532086300
+id: rq_UCdftYv8M4
+createdAt: 2026-04-21T13:35:57.149792300
+updatedAt: 2026-04-21T13:58:15.018928900
 workspaceId: wk_AiNK9XJRWM
 folderId: fl_Ge8MLntrgb
 authentication: {}
@@ -12,9 +12,9 @@ bodyType: null
 description: ''
 headers: []
 method: GET
-name: get-manuals-products
-sortPriority: 3000.0
-url: ${[ pimcoreUrl ]}/mk-api/easycatalog/get-manuals-products
+name: get-manuals
+sortPriority: 3000.001
+url: ${[ pimcoreUrl ]}/mk-api/easycatalog/get-manuals
 urlParameters:
 - enabled: true
   name: apiKey
@@ -23,4 +23,4 @@ urlParameters:
 - enabled: true
   name: ''
   value: ''
-  id: 4CmhkrAHb5
+  id: 4PjxzuuPnW

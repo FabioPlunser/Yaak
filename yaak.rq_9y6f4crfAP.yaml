@@ -2,12 +2,11 @@ type: http_request
 model: http_request
 id: rq_9y6f4crfAP
 createdAt: 2025-10-13T13:14:18.352389600
-updatedAt: 2026-04-21T09:15:29.919982800
+updatedAt: 2026-04-21T10:49:26.863487400
 workspaceId: wk_AiNK9XJRWM
 folderId: fl_VNskDXTxqj
-authentication:
-  token: ''
-authenticationType: bearer
+authentication: {}
+authenticationType: null
 body:
   text: |-
     {
@@ -31,5 +30,5 @@ headers:
 method: POST
 name: updateUser
 sortPriority: 6000.0
-url: http://pimcore.local/scim/v2/Users
+url: ${[ pimcoreUrl ]}/scim/v2/Users
 urlParameters: []

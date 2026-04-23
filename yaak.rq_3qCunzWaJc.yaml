@@ -2,12 +2,11 @@ type: http_request
 model: http_request
 id: rq_3qCunzWaJc
 createdAt: 2025-10-13T13:14:18.351814300
-updatedAt: 2026-04-21T09:15:29.971550700
+updatedAt: 2026-04-21T10:49:09.325141600
 workspaceId: wk_AiNK9XJRWM
 folderId: fl_VNskDXTxqj
-authentication:
-  token: ''
-authenticationType: bearer
+authentication: {}
+authenticationType: null
 body: {}
 bodyType: null
 description: ''
@@ -15,7 +14,7 @@ headers: []
 method: GET
 name: listUsers
 sortPriority: 2000.0
-url: http://pimcore.local/scim/v2/Users
+url: ${[ pimcoreUrl ]}/scim/v2/Users
 urlParameters:
 - enabled: true
   name: filter

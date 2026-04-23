@@ -2,14 +2,26 @@ type: http_request
 model: http_request
 id: rq_i69JfHHU6m
 createdAt: 2025-10-13T13:14:18.352096
-updatedAt: 2026-04-21T09:15:29.985891700
+updatedAt: 2026-04-21T10:49:20.175336400
 workspaceId: wk_AiNK9XJRWM
 folderId: fl_VNskDXTxqj
-authentication:
-  token: ''
-authenticationType: bearer
+authentication: {}
+authenticationType: null
 body:
-  text: "{\r\n    \"userName\": \"jane.doe@example.com\",\r\n    \"name\": { \"givenName\": \"Jane\", \"familyName\": \"Doe\" },\r\n    \"active\": true,\r\n    \"emails\": [{ \"value\": \"jane.doe@example.com\", \"primary\": true }],\r\n    \"addresses\": [{\r\n      \"type\": \"work\",\r\n      \"streetAddress\": \"Trientlgasse 70\",\r\n      \"locality\": \"Vienna\",\r\n      \"postalCode\": \"6020\",\r\n      \"country\": \"Austria\"\r\n    }]\r\n}"
+  text: |-
+    {
+        "userName": "jane.doe@example.com",
+        "name": { "givenName": "Jane", "familyName": "Doe" },
+        "active": true,
+        "emails": [{ "value": "jane.doe@example.com", "primary": true }],
+        "addresses": [{
+          "type": "work",
+          "streetAddress": "Trientlgasse 70",
+          "locality": "Vienna",
+          "postalCode": "6020",
+          "country": "Austria"
+        }]
+    }
 bodyType: application/json
 description: ''
 headers:
@@ -20,5 +32,5 @@ headers:
 method: POST
 name: createUesrs
 sortPriority: 4000.0
-url: http://pimcore.local/scim/v2/Users
+url: ${[ pimcoreUrl ]}/scim/v2/Users
 urlParameters: []

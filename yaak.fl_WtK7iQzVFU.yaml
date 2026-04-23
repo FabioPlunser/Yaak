@@ -2,11 +2,13 @@ type: folder
 model: folder
 id: fl_WtK7iQzVFU
 createdAt: 2026-04-20T11:58:53.484702
-updatedAt: 2026-04-20T11:58:53.484702700
+updatedAt: 2026-04-21T10:58:01.701430600
 workspaceId: wk_AiNK9XJRWM
 folderId: null
-authentication: {}
-authenticationType: null
+authentication:
+  password: sK3pX8cF9wL9hI1eJ2zV2rG9fT4eG9dM
+  username: mki
+authenticationType: basic
 description: ''
 headers: []
 name: ABAS

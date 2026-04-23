@@ -2,11 +2,12 @@ type: folder
 model: folder
 id: fl_VNskDXTxqj
 createdAt: 2026-04-20T14:13:22.346993
-updatedAt: 2026-04-20T14:13:22.346993700
+updatedAt: 2026-04-23T11:00:07.666363900
 workspaceId: wk_AiNK9XJRWM
 folderId: null
-authentication: {}
-authenticationType: null
+authentication:
+  token: lNKtiL#G95sFMl31!HVOB0Lo
+authenticationType: bearer
 description: ''
 headers: []
 name: Pimcore-SCIM

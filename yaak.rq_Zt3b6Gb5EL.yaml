@@ -2,18 +2,25 @@ type: http_request
 model: http_request
 id: rq_Zt3b6Gb5EL
 createdAt: 2025-10-13T13:14:18.351319800
-updatedAt: 2026-04-21T09:15:29.913001500
+updatedAt: 2026-04-21T13:00:01.041701700
 workspaceId: wk_AiNK9XJRWM
 folderId: fl_VNskDXTxqj
-authentication:
-  token: ''
-authenticationType: bearer
+authentication: {}
+authenticationType: null
 body: {}
 bodyType: null
 description: ''
-headers: []
+headers:
+- enabled: false
+  name: Authorization
+  value: Bearer 123
+  id: NegQ3777sB
+- enabled: true
+  name: ''
+  value: ''
+  id: CGzWXfdq9z
 method: GET
 name: serviceProviderConfig
 sortPriority: 0.0
-url: http://pimcore.local/scim/v2/ServiceProviderConfig
+url: ${[ pimcoreUrl ]}/scim/v2/ServiceProviderConfig
 urlParameters: []
